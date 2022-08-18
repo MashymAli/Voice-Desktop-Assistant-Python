@@ -47,8 +47,8 @@ def listen():  #listen to me and recongnize it
     return query
 
 def weather():
-    city = "karachi"
-    appid= "3b6c7558a914b7f048272a80fdf4a90d"
+    city = "your_city_name"
+    appid= "your_api_id"
     res = requests.get(
         f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={appid}&units=metric").json()
     temperature = res["main"]["temp"]
@@ -63,10 +63,10 @@ if __name__ == "__main__":
 
     paths = {'chrome_path': 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s',
         'notepad':'C:\\Windows\\notepad',
-        'music_dir':'C:\\Users\\yousaf\\Music',
-        'vscode':'C:\\Users\yousaf\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe',
+        'music_dir':'C:\\Users\\Music',
+        'vscode':'C:\\Users\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe',
         'netbeans':'C:\\Program Files\\NetBeans-12.5\\netbeans\\bin\\netbeans64.exe',
-        }
+        }  #change paths according to your desktop
 
     while True:
         
@@ -159,7 +159,7 @@ if __name__ == "__main__":
         elif 'screenshot' in query:
             speak("Taking Screenshot")
             Screenshot = pyautogui.screenshot()
-            Screenshot.save(rf'C:\\Users\\yousaf\\Pictures\\Img{counter}.png') 
+            Screenshot.save(rf'C:\\Users\\Pictures\\Img{counter}.png') 
             counter+=1
 
         elif 'empty recycle bin' in query:
