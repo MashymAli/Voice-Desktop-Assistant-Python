@@ -6,7 +6,7 @@ Speaking Desktop assistant with help of python libraries. It can perform daily t
 * You can as what this program can do. </br>
 * Tell you jokes when you are bored.  </br>
 * Open your IDE's Like Netbeans and VS Code.  </br>
-* Open multiple webistes like google, youtube, stackoverflow. </br>
+* Open multiple webistes like google, youtube, whatsapp and how can we forget stackoverflow. </br>
 * Open command prompt and as well as notepad on your desktop.</br>
 * Tells you weather using OpenWeather API.</br>
 * It can empty recycle bin with just a voic command whenever you are feeling lazy.</br>
