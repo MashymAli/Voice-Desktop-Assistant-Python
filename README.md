@@ -1,7 +1,7 @@
 # Alexa-Desktop-Assistant-Python
 Speaking Desktop assistant with help of python libraries. It can perform daily tasks with voice command </br>
 
-### Activities this program can perfrom: </br>
+### Commands this program can perfrom: </br>
 
 * You can as what this program can do. </br>
 * Tell you jokes when you are bored.  </br>
